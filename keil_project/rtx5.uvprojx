@@ -10,7 +10,6 @@
       <TargetName>Target 1</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
-      <pArmCC>6160000::V6.16::ARMCLANG</pArmCC>
       <pCCUsed>6160000::V6.16::ARMCLANG</pCCUsed>
       <uAC6>1</uAC6>
       <TargetOption>
@@ -340,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define>GD32E230</Define>
               <Undefine></Undefine>
-              <IncludePath>..\application;..\driver</IncludePath>
+              <IncludePath>..\application;..\driver;..\core</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -392,12 +391,27 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>Doc</GroupName>
+          <GroupName>Driver</GroupName>
           <Files>
             <File>
-              <FileName>readme.txt</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\doc\readme.txt</FilePath>
+              <FileName>led.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\driver\led.c</FilePath>
+            </File>
+            <File>
+              <FileName>spi_led.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\driver\spi_led.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Core</GroupName>
+          <Files>
+            <File>
+              <FileName>utility.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\core\utility.c</FilePath>
             </File>
           </Files>
         </Group>
