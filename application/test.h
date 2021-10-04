@@ -18,8 +18,8 @@ void testDelay(void);
 void testThreadFlags(void);
 void testEventFlags(void);
 void testTimer(void);
-
-
-
+void testMutex(void);
+void testSemaphore(void);
+void testMsgQueue(void);
 
 #endif

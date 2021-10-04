@@ -19,8 +19,20 @@ main(void)
 	testEventFlags();
 	#endif
 	
-	#if 1
+	#if 0
 	testTimer();
+	#endif
+	
+	#if 0
+	testMutex();
+	#endif
+	
+	#if 0
+	testSemaphore();
+	#endif
+	
+	#if 1
+	testMsgQueue();
 	#endif
 	
 	osKernelStart();                  // Start thread execution

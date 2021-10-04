@@ -413,6 +413,21 @@
               <FileType>1</FileType>
               <FilePath>..\application\test_timer.c</FilePath>
             </File>
+            <File>
+              <FileName>test_mutex.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\application\test_mutex.c</FilePath>
+            </File>
+            <File>
+              <FileName>test_semaphore.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\application\test_semaphore.c</FilePath>
+            </File>
+            <File>
+              <FileName>test_message_queue.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\application\test_message_queue.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
